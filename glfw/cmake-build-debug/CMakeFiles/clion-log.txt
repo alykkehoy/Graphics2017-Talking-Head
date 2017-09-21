@@ -1,0 +1,9 @@
+C:\Users\Anders\.CLion2017.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Anders/Desktop/glfw-3.2.1
+-- Could NOT find Vulkan (missing:  VULKAN_LIBRARY VULKAN_INCLUDE_DIR) 
+-- Using X11 for window creation
+CMake Error at CMakeLists.txt:234 (message):
+  The Xinerama library and headers were not found
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cygdrive/c/Users/Anders/Desktop/glfw-3.2.1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
