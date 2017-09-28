@@ -252,8 +252,6 @@ void moveEyes(double xpos, double ypos, float *vertices) {
     xpos = (xpos - 400) / 800;
     ypos = -(ypos - 300) / 600;
 
-//    std::cout << xpos << std::endl;
-
     float percentMovement = 0.1;
     float eye1_correctionx = (xpos - 0.1) * percentMovement;
     float eye1_correctiony = (ypos - 0) * percentMovement;
@@ -269,8 +267,6 @@ void moveEyes(double xpos, double ypos, float *vertices) {
     }else if(eye1_correctiony < -0.1){
         eye1_correctiony = -0.1;
     }
-
-//    std::cout << eye1_correctionx << std::endl;
 
     float eye2_correctionx = (xpos - (-0.1)) * percentMovement;
     float eye2_correctiony = (ypos - 0) * percentMovement;
