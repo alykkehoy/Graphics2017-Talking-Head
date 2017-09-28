@@ -30,11 +30,9 @@ const char *fragmentShaderSource = "#version 330 core\n"
 
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-void processInput(GLFWwindow*window);
+void processInput(GLFWwindow *window, float pDouble[216]);
 
 void moveEyes(double xpos, double ypos, float pDouble[162]);
-
-void resetFace();
 
 int main(void) {
 
@@ -200,9 +198,36 @@ int main(void) {
                 0.6f,  0.5f, 0.3f,  // bottom right
                 -0.6f, 0.5f, 0.3f,  // bottom left
                 -0.6f,  0.7f, 0.3f,  // top left
+
+                //eyebrow 1
+                0.3f,  0.3f, 0.3f,  // top right
+                0.3f, 0.25f, 0.3f,  // bottom right
+                0.1f,  0.3f, 0.3f,  // top left
+                //second triangle
+                0.3f,  0.25f, 0.3f,  // bottom right
+                0.1f, 0.25f, 0.3f,  // bottom left
+                0.1f,  0.3f, 0.3f,  // top left
+
+                //eyebrow 2
+                -0.3f,  0.3f, 0.3f,  // top right
+                -0.3f, 0.25f, 0.3f,  // bottom right
+                -0.1f,  0.3f, 0.3f,  // top left
+                //second triangle
+                -0.3f,  0.25f, 0.3f,  // bottom right
+                -0.1f, 0.25f, 0.3f,  // bottom left
+                -0.1f,  0.3f, 0.3f,  // top left
+
+                //mouth
+                0.3f,  -0.3f, 0.3f,  // top right
+                0.3f, -0.4f, 0.3f,  // bottom right
+                -0.3f,  -0.3f, 0.3f,  // top left
+                //second triangle
+                0.3f,  -0.4f, 0.3f,  // bottom right
+                -0.3f, -0.4f, 0.3f,  // bottom left
+                -0.3f,  -0.3f, 0.3f,  // top left
         };
 
-        processInput(window);
+        processInput(window, vertices);
 
         double xpos, ypos;
         glfwGetCursorPos(window, &xpos, &ypos);
@@ -277,8 +302,17 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height){
     glViewport(0,0,width,height);
 }
 
-void processInput(GLFWwindow*window){
+void processInput(GLFWwindow *window, float *vertices) {
     if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS){
         glfwSetWindowShouldClose(window, true);
+    }
+    if(glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS){
+        for(int i = 162; i < 198; i += 3){
+            vertices[i + 1] += 0.1;
+        }
+        for(int i = 198; i < 216; i += 3){
+            vertices[i] *= 0.5;
+            vertices[i + 1] =  (vertices[i + 1] + 0.35) * 1.5 - 0.35;
+        }
     }
 }
