@@ -1,6 +1,6 @@
-C:\Users\Anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Anders\CLionProjects\OpenGLPractice
+C:\Users\Anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head
 -- Could NOT find Vulkan (missing:  VULKAN_INCLUDE_DIR) 
 -- Using Win32 for window creation
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug
+-- Build files have been written to: C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug

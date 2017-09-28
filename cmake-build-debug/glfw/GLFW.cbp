@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;CMake Files\glfw\;CMake Files\glfw\CMake\;CMake Files\glfw\CMake\modules\;CMake Files\glfw\src\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw"/>
+				<Option working_dir="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uninstall">
-				<Option working_dir="C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw"/>
+				<Option working_dir="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw">
-				<Option output="C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src"/>
+				<Option output="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -37,10 +37,10 @@
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
 					<Add option="-DUNICODE"/>
 					<Add option="-DWINVER=0x0501"/>
-					<Add directory="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/include"/>
-					<Add directory="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src"/>
-					<Add directory="C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src"/>
-					<Add directory="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/deps/mingw"/>
+					<Add directory="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/include"/>
+					<Add directory="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src"/>
+					<Add directory="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src"/>
+					<Add directory="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/deps/mingw"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -50,15 +50,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw/fast">
-				<Option output="C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src"/>
+				<Option output="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -66,10 +66,10 @@
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
 					<Add option="-DUNICODE"/>
 					<Add option="-DWINVER=0x0501"/>
-					<Add directory="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/include"/>
-					<Add directory="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src"/>
-					<Add directory="C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src"/>
-					<Add directory="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/deps/mingw"/>
+					<Add directory="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/include"/>
+					<Add directory="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src"/>
+					<Add directory="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src"/>
+					<Add directory="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/deps/mingw"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -79,122 +79,122 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/glfw_config.h">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/include/GLFW/glfw3.h">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/include/GLFW/glfw3.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/include/GLFW/glfw3native.h">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/include/GLFW/glfw3native.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/context.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/egl_context.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/egl_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/egl_context.h">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/egl_context.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/init.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/input.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/input.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/internal.h">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/internal.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/monitor.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/vulkan.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/vulkan.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/wgl_context.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/wgl_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/wgl_context.h">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/wgl_context.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_init.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_joystick.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_joystick.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_joystick.h">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_joystick.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_monitor.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_platform.h">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_platform.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_time.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_time.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_tls.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_tls.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_window.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/window.c">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/CMakeLists.txt">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/CMakeLists.txt">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glfw\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/cmake_uninstall.cmake.in">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\glfw\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/CMakeLists.txt">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glfw\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/cmake_uninstall.cmake.in">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\glfw\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/CMake/modules/FindVulkan.cmake">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/CMake/modules/FindVulkan.cmake">
 			<Option virtualFolder="CMake Files\glfw\CMake\modules\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/CMake/modules/FindVulkan.cmake">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/CMake/modules/FindVulkan.cmake">
 			<Option virtualFolder="CMake Files\glfw\CMake\modules\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/glfw3Config.cmake.in">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/glfw_config.h.in">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/glfw3.pc.in">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/CMakeLists.txt">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/glfw3Config.cmake.in">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/glfw_config.h.in">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/glfw3.pc.in">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/CMakeLists.txt">
+		<Unit filename="C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
 	</Project>

@@ -42,10 +42,10 @@ RM = C:\Users\Anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Anders\CLionProjects\OpenGLPractice
+CMAKE_SOURCE_DIR = C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OpenGLPractice.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/OpenGLPractice.dir/flags.make
 CMakeFiles/OpenGLPractice.dir/main.cpp.obj: CMakeFiles/OpenGLPractice.dir/flags.make
 CMakeFiles/OpenGLPractice.dir/main.cpp.obj: CMakeFiles/OpenGLPractice.dir/includes_CXX.rsp
 CMakeFiles/OpenGLPractice.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLPractice.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGLPractice.dir\main.cpp.obj -c C:\Users\Anders\CLionProjects\OpenGLPractice\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLPractice.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpenGLPractice.dir\main.cpp.obj -c C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\main.cpp
 
 CMakeFiles/OpenGLPractice.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLPractice.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Anders\CLionProjects\OpenGLPractice\main.cpp > CMakeFiles\OpenGLPractice.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\main.cpp > CMakeFiles\OpenGLPractice.dir\main.cpp.i
 
 CMakeFiles/OpenGLPractice.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLPractice.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Anders\CLionProjects\OpenGLPractice\main.cpp -o CMakeFiles\OpenGLPractice.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\main.cpp -o CMakeFiles\OpenGLPractice.dir\main.cpp.s
 
 CMakeFiles/OpenGLPractice.dir/main.cpp.obj.requires:
 
@@ -84,16 +84,16 @@ CMakeFiles/OpenGLPractice.dir/main.cpp.obj.provides.build: CMakeFiles/OpenGLPrac
 CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.obj: CMakeFiles/OpenGLPractice.dir/flags.make
 CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.obj: CMakeFiles/OpenGLPractice.dir/includes_C.rsp
 CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.obj: ../glad/src/glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OpenGLPractice.dir\glad\src\glad.c.obj   -c C:\Users\Anders\CLionProjects\OpenGLPractice\glad\src\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\OpenGLPractice.dir\glad\src\glad.c.obj   -c C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\glad\src\glad.c
 
 CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Anders\CLionProjects\OpenGLPractice\glad\src\glad.c > CMakeFiles\OpenGLPractice.dir\glad\src\glad.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\glad\src\glad.c > CMakeFiles\OpenGLPractice.dir\glad\src\glad.c.i
 
 CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Anders\CLionProjects\OpenGLPractice\glad\src\glad.c -o CMakeFiles\OpenGLPractice.dir\glad\src\glad.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\glad\src\glad.c -o CMakeFiles\OpenGLPractice.dir\glad\src\glad.c.s
 
 CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.obj.requires:
 
@@ -121,7 +121,7 @@ OpenGLPractice.exe: glfw/src/libglfw3.a
 OpenGLPractice.exe: CMakeFiles/OpenGLPractice.dir/linklibs.rsp
 OpenGLPractice.exe: CMakeFiles/OpenGLPractice.dir/objects1.rsp
 OpenGLPractice.exe: CMakeFiles/OpenGLPractice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenGLPractice.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenGLPractice.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenGLPractice.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +139,6 @@ CMakeFiles/OpenGLPractice.dir/clean:
 .PHONY : CMakeFiles/OpenGLPractice.dir/clean
 
 CMakeFiles/OpenGLPractice.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Anders\CLionProjects\OpenGLPractice C:\Users\Anders\CLionProjects\OpenGLPractice C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\CMakeFiles\OpenGLPractice.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\CMakeFiles\OpenGLPractice.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OpenGLPractice.dir/depend
 

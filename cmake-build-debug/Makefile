@@ -47,13 +47,23 @@ RM = C:\Users\Anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Anders\CLionProjects\OpenGLPractice
+CMAKE_SOURCE_DIR = C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -101,16 +111,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -125,9 +125,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\CMakeFiles C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\CMakeFiles C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -156,17 +156,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OpenGLPractice
+# Target rules for targets named Talking-Head
 
 # Build rule for target.
-OpenGLPractice: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 OpenGLPractice
-.PHONY : OpenGLPractice
+Talking-Head: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Talking-Head
+.PHONY : Talking-Head
 
 # fast build rule for target.
-OpenGLPractice/fast:
-	$(MAKE) -f CMakeFiles\OpenGLPractice.dir\build.make CMakeFiles/OpenGLPractice.dir/build
-.PHONY : OpenGLPractice/fast
+Talking-Head/fast:
+	$(MAKE) -f CMakeFiles\Talking-Head.dir\build.make CMakeFiles/Talking-Head.dir/build
+.PHONY : Talking-Head/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -200,7 +200,7 @@ glad/src/glad.obj: glad/src/glad.c.obj
 
 # target to build an object file
 glad/src/glad.c.obj:
-	$(MAKE) -f CMakeFiles\OpenGLPractice.dir\build.make CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.obj
+	$(MAKE) -f CMakeFiles\Talking-Head.dir\build.make CMakeFiles/Talking-Head.dir/glad/src/glad.c.obj
 .PHONY : glad/src/glad.c.obj
 
 glad/src/glad.i: glad/src/glad.c.i
@@ -209,7 +209,7 @@ glad/src/glad.i: glad/src/glad.c.i
 
 # target to preprocess a source file
 glad/src/glad.c.i:
-	$(MAKE) -f CMakeFiles\OpenGLPractice.dir\build.make CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.i
+	$(MAKE) -f CMakeFiles\Talking-Head.dir\build.make CMakeFiles/Talking-Head.dir/glad/src/glad.c.i
 .PHONY : glad/src/glad.c.i
 
 glad/src/glad.s: glad/src/glad.c.s
@@ -218,7 +218,7 @@ glad/src/glad.s: glad/src/glad.c.s
 
 # target to generate assembly for a file
 glad/src/glad.c.s:
-	$(MAKE) -f CMakeFiles\OpenGLPractice.dir\build.make CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.s
+	$(MAKE) -f CMakeFiles\Talking-Head.dir\build.make CMakeFiles/Talking-Head.dir/glad/src/glad.c.s
 .PHONY : glad/src/glad.c.s
 
 main.obj: main.cpp.obj
@@ -227,7 +227,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\OpenGLPractice.dir\build.make CMakeFiles/OpenGLPractice.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Talking-Head.dir\build.make CMakeFiles/Talking-Head.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -236,7 +236,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\OpenGLPractice.dir\build.make CMakeFiles/OpenGLPractice.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Talking-Head.dir\build.make CMakeFiles/Talking-Head.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -245,7 +245,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\OpenGLPractice.dir\build.make CMakeFiles/OpenGLPractice.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Talking-Head.dir\build.make CMakeFiles/Talking-Head.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -254,12 +254,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... OpenGLPractice
+	@echo ... list_install_components
+	@echo ... Talking-Head
 	@echo ... install/local
 	@echo ... install
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... list_install_components
 	@echo ... install/strip
 	@echo ... uninstall
 	@echo ... glfw

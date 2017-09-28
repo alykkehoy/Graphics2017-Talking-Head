@@ -42,10 +42,10 @@ RM = C:\Users\Anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Anders\CLionProjects\OpenGLPractice
+CMAKE_SOURCE_DIR = C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debu
 include glfw/CMakeFiles/uninstall.dir/progress.make
 
 glfw/CMakeFiles/uninstall:
-	cd /d C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\glfw && C:\Users\Anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17\bin\cmake\bin\cmake.exe -P C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/cmake_uninstall.cmake
+	cd /d C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\glfw && C:\Users\Anders\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\172.3968.17\bin\cmake\bin\cmake.exe -P C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/cmake_uninstall.cmake
 
 uninstall: glfw/CMakeFiles/uninstall
 uninstall: glfw/CMakeFiles/uninstall.dir/build.make
@@ -66,10 +66,10 @@ glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw/CMakeFiles/uninstall.dir/build
 
 glfw/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\glfw && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : glfw/CMakeFiles/uninstall.dir/clean
 
 glfw/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Anders\CLionProjects\OpenGLPractice C:\Users\Anders\CLionProjects\OpenGLPractice\glfw C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\glfw C:\Users\Anders\CLionProjects\OpenGLPractice\cmake-build-debug\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\glfw C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\glfw C:\Users\Anders\CLionProjects\Graphics2017-Talking-Head\cmake-build-debug\glfw\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw/CMakeFiles/uninstall.dir/depend
 

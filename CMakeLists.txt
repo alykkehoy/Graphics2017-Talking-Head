@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(OpenGLPractice)
+project(Graphics2017-Talking-Head)
 
 find_package(OpenGL REQUIRED)
 
@@ -13,7 +13,7 @@ include_directories(glad/include)
 set(SOURCE_FILES main.cpp glad/src/glad.c)
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(OpenGLPractice ${SOURCE_FILES})
+add_executable(Talking-Head ${SOURCE_FILES})
 
-target_link_libraries(OpenGLPractice glfw gdi32 opengl32)
-target_link_libraries(OpenGLPractice ${OPENGL_gl_LIBRARY})
+target_link_libraries(Talking-Head glfw gdi32 opengl32)
+target_link_libraries(Talking-Head ${OPENGL_gl_LIBRARY})

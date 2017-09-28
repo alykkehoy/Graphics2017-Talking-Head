@@ -14,7 +14,7 @@ inttypes.h
 stdint.h
 -
 
-C:/Users/Anders/CLionProjects/OpenGLPractice/glad/include/glad/glad.h
+C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glad/include/glad/glad.h
 windows.h
 -
 stddef.h
@@ -34,7 +34,7 @@ stdint.h
 inttypes.h
 -
 
-C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/include/GLFW/glfw3.h
+C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/include/GLFW/glfw3.h
 stddef.h
 -
 stdint.h
@@ -74,11 +74,11 @@ GL/glext.h
 GL/glu.h
 -
 
-C:/Users/Anders/CLionProjects/OpenGLPractice/main.cpp
+C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/main.cpp
 iostream
 -
 glad/include/glad/glad.h
-C:/Users/Anders/CLionProjects/OpenGLPractice/glad/include/glad/glad.h
+C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glad/include/glad/glad.h
 glfw/include/GLFW/glfw3.h
-C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/include/GLFW/glfw3.h
+C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/include/GLFW/glfw3.h
 

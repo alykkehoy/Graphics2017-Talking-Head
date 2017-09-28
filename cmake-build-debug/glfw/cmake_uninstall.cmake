@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/install_manifest.txt" files)
+file(READ "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

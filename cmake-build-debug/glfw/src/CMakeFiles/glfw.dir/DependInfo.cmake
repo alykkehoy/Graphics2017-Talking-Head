@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/context.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/egl_context.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/init.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/input.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/monitor.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/vulkan.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/wgl_context.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_init.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_joystick.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_monitor.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_time.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_tls.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/win32_window.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src/window.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/context.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/egl_context.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/init.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/input.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/monitor.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/vulkan.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/wgl_context.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_init.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_joystick.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_monitor.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_time.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_tls.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/win32_window.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src/window.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

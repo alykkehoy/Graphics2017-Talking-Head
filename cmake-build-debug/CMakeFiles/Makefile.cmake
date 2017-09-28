@@ -71,7 +71,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/OpenGLPractice.dir/DependInfo.cmake"
+  "CMakeFiles/Talking-Head.dir/DependInfo.cmake"
   "glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )

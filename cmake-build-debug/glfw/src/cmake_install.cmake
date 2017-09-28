@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src
+# Install script for directory: C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,6 +28,6 @@ if(NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/libglfw3.a")
 endif()
 

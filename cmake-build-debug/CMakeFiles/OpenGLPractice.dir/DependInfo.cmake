@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/glad/src/glad.c" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glad/src/glad.c" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/CMakeFiles/OpenGLPractice.dir/glad/src/glad.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../glfw/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/main.cpp" "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/CMakeFiles/OpenGLPractice.dir/main.cpp.obj"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/main.cpp" "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/CMakeFiles/OpenGLPractice.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,7 +27,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

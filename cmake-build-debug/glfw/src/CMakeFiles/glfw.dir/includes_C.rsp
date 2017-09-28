@@ -1,1 +1,1 @@
--IC:/Users/Anders/CLionProjects/OpenGLPractice/glfw/include -IC:/Users/Anders/CLionProjects/OpenGLPractice/glfw/src -IC:/Users/Anders/CLionProjects/OpenGLPractice/cmake-build-debug/glfw/src -IC:/Users/Anders/CLionProjects/OpenGLPractice/glfw/deps/mingw 
+-IC:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/include -IC:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/src -IC:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/cmake-build-debug/glfw/src -IC:/Users/Anders/CLionProjects/Graphics2017-Talking-Head/glfw/deps/mingw 
